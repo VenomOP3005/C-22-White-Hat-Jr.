@@ -16,7 +16,7 @@ class Ball {
         var ballPos = this.body.position;
         push();
         translate(ballPos.x, ballPos.y);
-        rectMode(CENTER);
+        ellipseMode(CENTER);
         //fill(rgb(12, 235, 235));
         ellipse(0, 0, this.r, this.r);
         pop();
